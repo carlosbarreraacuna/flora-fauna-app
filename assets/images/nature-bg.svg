@@ -1,0 +1,56 @@
+<svg width="400" height="800" viewBox="0 0 400 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1B5E20;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2E7D32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#388E3C;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:0.6" />
+    </linearGradient>
+    
+    <radialGradient id="sunGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFF59D;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#F57F17;stop-opacity:0.1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="800" fill="url(#backgroundGradient)"/>
+  
+  <!-- Sun/Light source -->
+  <circle cx="320" cy="120" r="80" fill="url(#sunGradient)"/>
+  
+  <!-- Large leaves in background -->
+  <path d="M50 200 Q100 150 150 200 Q100 250 50 200" fill="url(#leafGradient)" opacity="0.3"/>
+  <path d="M300 300 Q350 250 400 300 Q350 350 300 300" fill="url(#leafGradient)" opacity="0.2"/>
+  <path d="M0 500 Q50 450 100 500 Q50 550 0 500" fill="url(#leafGradient)" opacity="0.25"/>
+  
+  <!-- Tree silhouettes -->
+  <path d="M80 600 Q90 550 100 600 Q110 550 120 600 L120 700 L80 700 Z" fill="#1B5E20" opacity="0.4"/>
+  <circle cx="100" cy="580" r="25" fill="#2E7D32" opacity="0.3"/>
+  
+  <path d="M280 650 Q290 600 300 650 Q310 600 320 650 L320 750 L280 750 Z" fill="#1B5E20" opacity="0.3"/>
+  <circle cx="300" cy="630" r="30" fill="#2E7D32" opacity="0.25"/>
+  
+  <!-- Floating leaves -->
+  <path d="M150 100 Q160 90 170 100 Q160 110 150 100" fill="#4CAF50" opacity="0.4"/>
+  <path d="M250 180 Q260 170 270 180 Q260 190 250 180" fill="#66BB6A" opacity="0.3"/>
+  <path d="M80 350 Q90 340 100 350 Q90 360 80 350" fill="#4CAF50" opacity="0.35"/>
+  <path d="M320 450 Q330 440 340 450 Q330 460 320 450" fill="#66BB6A" opacity="0.4"/>
+  
+  <!-- Small decorative elements -->
+  <circle cx="200" cy="250" r="3" fill="#81C784" opacity="0.5"/>
+  <circle cx="120" cy="400" r="2" fill="#A5D6A7" opacity="0.6"/>
+  <circle cx="350" cy="380" r="2.5" fill="#81C784" opacity="0.4"/>
+  <circle cx="60" cy="480" r="2" fill="#A5D6A7" opacity="0.5"/>
+  
+  <!-- Grass silhouettes at bottom -->
+  <path d="M0 750 Q20 730 40 750 Q60 730 80 750 Q100 730 120 750 Q140 730 160 750 Q180 730 200 750 Q220 730 240 750 Q260 730 280 750 Q300 730 320 750 Q340 730 360 750 Q380 730 400 750 L400 800 L0 800 Z" fill="#1B5E20" opacity="0.6"/>
+  
+  <!-- Subtle texture overlay -->
+  <rect width="400" height="800" fill="url(#backgroundGradient)" opacity="0.1"/>
+</svg>
