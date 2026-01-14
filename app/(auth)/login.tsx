@@ -480,9 +480,10 @@ const styles = StyleSheet.create({
   },
   demoModeText: {
     ...TextStyles.bodySmall,
-    color: 'rgba(255, 255, 255, 0.9)',
+    color: 'rgba(0, 0, 0, 0.9)',
     marginLeft: 8,
     flex: 1,
+    textAlign: 'center',
   },
   toggleModeButton: {
     backgroundColor: 'rgba(255, 255, 255, 0.2)',
@@ -493,7 +494,7 @@ const styles = StyleSheet.create({
   },
   toggleModeText: {
     ...TextStyles.bodySmall,
-    color: 'white',
+    color: 'black',
     textAlign: 'center',
     fontWeight: '500',
   },
@@ -505,7 +506,7 @@ const styles = StyleSheet.create({
   },
   demoInfoText: {
     ...TextStyles.bodySmall,
-    color: 'rgba(255, 255, 255, 0.9)',
+    color: 'rgba(0, 0, 0, 0.9)',
     marginLeft: 6,
     textDecorationLine: 'underline',
   },
